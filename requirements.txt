@@ -94,3 +94,4 @@ widgetsnbextension==4.0.10
 xformers==0.0.25.post1
 yarg==0.1.9
 zipp==3.18.1
+#python-dotenv

@@ -15,8 +15,8 @@ import random
 import numpy as np
 import inspect
 from typing import Any, Callable, Dict, List, Optional, Tuple, Union
-from cross_attention import hook_forwards,TOKENS,TOKENSCON
-from matrix import matrixdealer,keyconverter
+from model.cross_attention import hook_forwards,TOKENS,TOKENSCON
+from model.matrix import matrixdealer,keyconverter
 import torch
 from transformers import (
     CLIPImageProcessor,
@@ -201,7 +201,7 @@ def retrieve_timesteps(
     return timesteps, num_inference_steps
 
 
-class AdduedUserLatentPipeline(
+class AddedUserLatentPipeline(
     DiffusionPipeline,
     StableDiffusionMixin,
     FromSingleFileMixin,

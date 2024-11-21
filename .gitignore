@@ -1,4 +1,4 @@
 /diffusers
-RPG.py
 /__pycache__
 /template
+.env
