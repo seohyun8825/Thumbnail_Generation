@@ -100,7 +100,7 @@ def adjust_latent_to_region(latent, start, end, latent_h, latent_w):
 def hook_forward(self, module):
     def forward(hidden_states, encoder_hidden_states=None, attention_mask=None, additional_tokens=None, n_times_crossframe_attn_in_self=0):
         x = hidden_states
-        print("x shape", x.shape)
+        #print("x shape", x.shape)
         context = encoder_hidden_states
         user_latents = getattr(self, "user_latents", None)
         height = self.h
@@ -122,7 +122,7 @@ def hook_forward(self, module):
 
         contexts = context.clone()
         def matsepcalc(x, contexts, user_latents, divide):
-            print("x shape", x.shape)
+            #print("x shape", x.shape)
             h_states = []
             x_t = x.size()[1]
             latent_h, latent_w = split_dims(x_t, height, width, self)
@@ -142,12 +142,12 @@ def hook_forward(self, module):
                 if cnet_ext > 0:
                     context = torch.cat([context, contexts[:, -cnet_ext:, :]], dim=1)
                 i += 1
-                print("x before main forward diffusers", x.shape)
+                #print("x before main forward diffusers", x.shape)
                 outb = main_forward_diffusers(module, x, context, divide, userpp=True, isxl=self.isxl)
-                print("out before clone", outb.shape)
+                #print("out before clone", outb.shape)
                 outb = outb.clone()
                 outb = outb.reshape(outb.size()[0], latent_h, latent_w, outb.size()[2])
-                print(f"[DEBUG] Base context processed: outb.shape={outb.shape}")
+                #print(f"[DEBUG] Base context processed: outb.shape={outb.shape}")
             else:
                 outb = None
                 outb_t = None
@@ -160,20 +160,20 @@ def hook_forward(self, module):
                 v_states = []
                 sumin = 0
                 for dcell in drow.cols:
-                    print(f"[DEBUG] user_latents type: {type(user_latents)}")
-                    print(f"[DEBUG] user_latents length: {len(user_latents)}")
+                    #print(f"[DEBUG] user_latents type: {type(user_latents)}")
+                    #print(f"[DEBUG] user_latents length: {len(user_latents)}")
 
                     # 사용자 제공 latent가 있으면 해당 값 사용
                     if user_latents and region_idx < len(user_latents):
-                        print(f"[DEBUG] Using user_latent for region_idx={region_idx}")
+                        #print(f"[DEBUG] Using user_latent for region_idx={region_idx}")
                         out = user_latents[region_idx]
-                        print("user latent out before adjustment", out.shape)
+                        #print("user latent out before adjustment", out.shape)
 
                         # x와 shape이 맞지 않을 경우 조정
                         if out.shape[1:] != x.shape[1:]:
-                            print(f"[DEBUG] Adjusting user_latent from shape {out.shape} to match x shape {x.shape}")
+                            #print(f"[DEBUG] Adjusting user_latent from shape {out.shape} to match x shape {x.shape}")
                             out = adjust_latent_to_x(out, x.shape, x.device, x.dtype)
-                            print(f"[DEBUG] Adjusted user_latent shape: {out.shape}")
+                            #print(f"[DEBUG] Adjusted user_latent shape: {out.shape}")
 
                         region_idx += 1
                     else:
@@ -185,7 +185,7 @@ def hook_forward(self, module):
                         i += 1 + dcell.breaks
 
                         out = main_forward_diffusers(module, x, context, divide, userpp=self.pn, isxl=self.isxl)
-                        print("out shape before resize", out.shape)
+                        #print("out shape before resize", out.shape)
 
                     # reshape
                     out = out.reshape(out.size()[0], latent_h, latent_w, out.size()[2])
@@ -222,7 +222,7 @@ def hook_forward(self, module):
 
             output_x = torch.cat(h_states, dim=1)
             output_x = output_x.reshape(x.size()[0], x.size()[1], x.size()[2])
-            print(f"[DEBUG] Final output shape: {output_x.shape}")
+            #print(f"[DEBUG] Final output shape: {output_x.shape}")
 
             return output_x
 

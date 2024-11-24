@@ -20,6 +20,7 @@ prompt= 'Four snapshots of a dog'
 para_dict = GPT4(prompt,key=api_key)
 split_ratio = para_dict['Final split ratio']
 regional_prompt = para_dict['Regional Prompt']
+
 negative_prompt = ""
 
 image_path = [
@@ -44,4 +45,5 @@ images = pipe(
     user_images = image_path,
 ).images[0]
 print("[DEBUG] Pipeline call finished.")
+
 images.save("test.png")

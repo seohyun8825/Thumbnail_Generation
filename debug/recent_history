@@ -1,0 +1,528 @@
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] Final output shape: torch.Size([1, 1024, 1280])
+x shape torch.Size([1, 1024, 1280])
+x before main forward diffusers torch.Size([1, 1024, 1280])
+out before clone torch.Size([1, 1024, 1280])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 32, 32, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] Final output shape: torch.Size([1, 1024, 1280])
+x shape torch.Size([2, 1024, 1280])
+x shape torch.Size([1, 1024, 1280])
+x before main forward diffusers torch.Size([1, 1024, 1280])
+out before clone torch.Size([1, 1024, 1280])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 32, 32, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] Final output shape: torch.Size([1, 1024, 1280])
+x shape torch.Size([1, 1024, 1280])
+x before main forward diffusers torch.Size([1, 1024, 1280])
+out before clone torch.Size([1, 1024, 1280])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 32, 32, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] Final output shape: torch.Size([1, 1024, 1280])
+x shape torch.Size([2, 1024, 1280])
+x shape torch.Size([1, 1024, 1280])
+x before main forward diffusers torch.Size([1, 1024, 1280])
+out before clone torch.Size([1, 1024, 1280])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 32, 32, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] Final output shape: torch.Size([1, 1024, 1280])
+x shape torch.Size([1, 1024, 1280])
+x before main forward diffusers torch.Size([1, 1024, 1280])
+out before clone torch.Size([1, 1024, 1280])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 32, 32, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] Final output shape: torch.Size([1, 1024, 1280])
+x shape torch.Size([2, 1024, 1280])
+x shape torch.Size([1, 1024, 1280])
+x before main forward diffusers torch.Size([1, 1024, 1280])
+out before clone torch.Size([1, 1024, 1280])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 32, 32, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] Final output shape: torch.Size([1, 1024, 1280])
+x shape torch.Size([1, 1024, 1280])
+x before main forward diffusers torch.Size([1, 1024, 1280])
+out before clone torch.Size([1, 1024, 1280])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 32, 32, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] Final output shape: torch.Size([1, 1024, 1280])
+x shape torch.Size([2, 1024, 1280])
+x shape torch.Size([1, 1024, 1280])
+x before main forward diffusers torch.Size([1, 1024, 1280])
+out before clone torch.Size([1, 1024, 1280])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 32, 32, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] Final output shape: torch.Size([1, 1024, 1280])
+x shape torch.Size([1, 1024, 1280])
+x before main forward diffusers torch.Size([1, 1024, 1280])
+out before clone torch.Size([1, 1024, 1280])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 32, 32, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] Final output shape: torch.Size([1, 1024, 1280])
+x shape torch.Size([2, 1024, 1280])
+x shape torch.Size([1, 1024, 1280])
+x before main forward diffusers torch.Size([1, 1024, 1280])
+out before clone torch.Size([1, 1024, 1280])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 32, 32, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] Final output shape: torch.Size([1, 1024, 1280])
+x shape torch.Size([1, 1024, 1280])
+x before main forward diffusers torch.Size([1, 1024, 1280])
+out before clone torch.Size([1, 1024, 1280])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 32, 32, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Adjusting user_latent from shape torch.Size([1, 4096, 640]) to match x shape torch.Size([1, 1024, 1280])
+[DEBUG] Adjusted user_latent shape: torch.Size([1, 1024, 1280])
+[DEBUG] Final output shape: torch.Size([1, 1024, 1280])
+x shape torch.Size([2, 4096, 640])
+x shape torch.Size([1, 4096, 640])
+x before main forward diffusers torch.Size([1, 4096, 640])
+out before clone torch.Size([1, 4096, 640])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 64, 64, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Final output shape: torch.Size([1, 4096, 640])
+x shape torch.Size([1, 4096, 640])
+x before main forward diffusers torch.Size([1, 4096, 640])
+out before clone torch.Size([1, 4096, 640])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 64, 64, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Final output shape: torch.Size([1, 4096, 640])
+x shape torch.Size([2, 4096, 640])
+x shape torch.Size([1, 4096, 640])
+x before main forward diffusers torch.Size([1, 4096, 640])
+out before clone torch.Size([1, 4096, 640])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 64, 64, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Final output shape: torch.Size([1, 4096, 640])
+x shape torch.Size([1, 4096, 640])
+x before main forward diffusers torch.Size([1, 4096, 640])
+out before clone torch.Size([1, 4096, 640])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 64, 64, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Final output shape: torch.Size([1, 4096, 640])
+x shape torch.Size([2, 4096, 640])
+x shape torch.Size([1, 4096, 640])
+x before main forward diffusers torch.Size([1, 4096, 640])
+out before clone torch.Size([1, 4096, 640])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 64, 64, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Final output shape: torch.Size([1, 4096, 640])
+x shape torch.Size([1, 4096, 640])
+x before main forward diffusers torch.Size([1, 4096, 640])
+out before clone torch.Size([1, 4096, 640])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 64, 64, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Final output shape: torch.Size([1, 4096, 640])
+x shape torch.Size([2, 4096, 640])
+x shape torch.Size([1, 4096, 640])
+x before main forward diffusers torch.Size([1, 4096, 640])
+out before clone torch.Size([1, 4096, 640])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 64, 64, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Final output shape: torch.Size([1, 4096, 640])
+x shape torch.Size([1, 4096, 640])
+x before main forward diffusers torch.Size([1, 4096, 640])
+out before clone torch.Size([1, 4096, 640])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 64, 64, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Final output shape: torch.Size([1, 4096, 640])
+x shape torch.Size([2, 4096, 640])
+x shape torch.Size([1, 4096, 640])
+x before main forward diffusers torch.Size([1, 4096, 640])
+out before clone torch.Size([1, 4096, 640])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 64, 64, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Final output shape: torch.Size([1, 4096, 640])
+x shape torch.Size([1, 4096, 640])
+x before main forward diffusers torch.Size([1, 4096, 640])
+out before clone torch.Size([1, 4096, 640])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 64, 64, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Final output shape: torch.Size([1, 4096, 640])
+x shape torch.Size([2, 4096, 640])
+x shape torch.Size([1, 4096, 640])
+x before main forward diffusers torch.Size([1, 4096, 640])
+out before clone torch.Size([1, 4096, 640])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 64, 64, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Final output shape: torch.Size([1, 4096, 640])
+x shape torch.Size([1, 4096, 640])
+x before main forward diffusers torch.Size([1, 4096, 640])
+out before clone torch.Size([1, 4096, 640])
+[DEBUG] Base context processed: outb.shape=torch.Size([1, 64, 64, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=0
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=1
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] user_latents type: <class 'list'>
+[DEBUG] user_latents length: 3
+[DEBUG] Using user_latent for region_idx=2
+user latent out before adjustment torch.Size([1, 4096, 640])
+[DEBUG] Final output shape: torch.Size([1, 4096, 640])
+100%|███████████████████████████████████████████████████████████████████████████████████| 20/20 [00:26<00:00,  1.33s/it]
+[DEBUG] Pipeline call finished.
+(RPG) root@C.13784856:/home/kubig/Thumbnail_Image_Generation$ git add .
+(RPG) root@C.13784856:/home/kubig/Thumbnail_Image_Generation$ git commit -m "added user_latent"
+[main 90ef458] added user_latent
+ 17 files changed, 54 insertions(+), 529 deletions(-)
+ create mode 100644 Generate.py
+ rename Modified_xl.py => model/Modified_xl.py (97%)
+ create mode 100644 model/__pycache__/Modified_xl.cpython-39.pyc
+ create mode 100644 model/__pycache__/cross_attention.cpython-39.pyc
+ create mode 100644 model/__pycache__/matrix.cpython-39.pyc
+ create mode 100644 model/__pycache__/mllm.cpython-39.pyc
+ rename cross_attention.py => model/cross_attention.py (100%)
+ rename matrix.py => model/matrix.py (100%)
+ rename mllm.py => model/mllm.py (100%)
+ delete mode 100644 py
+ delete mode 100644 recent_history
+ rewrite test.png (81%)
+ rename a.png => user_img/a.png (100%)
+ rename b.png => user_img/b.png (100%)
+ rename happy_sitting.png => user_img/happy_sitting.png (100%)
+(RPG) root@C.13784856:/home/kubig/Thumbnail_Image_Generation$ git push origin main
+Warning: Permanently added the ECDSA host key for IP address '140.82.114.3' to the list of known hosts.
+Counting objects: 14, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (14/14), 1.63 MiB | 5.56 MiB/s, done.
+Total 14 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:seohyun8825/Thumbnail_Generation.git
+   01531e2..90ef458  main -> main
+(RPG) root@C.13784856:/home/kubig/Thumbnail_Image_Generation$ git add .
+(RPG) root@C.13784856:/home/kubig/Thumbnail_Image_Generation$ git commit "user_latent added"
+error: pathspec 'user_latent added' did not match any file(s) known to git.
+(RPG) root@C.13784856:/home/kubig/Thumbnail_Image_Generation$ git commit -m  "user_latent added"
+[main 4c525b1] user_latent added
+ 1 file changed, 16 insertions(+)
+(RPG) root@C.13784856:/home/kubig/Thumbnail_Image_Generation$ git push origin main
+Counting objects: 3, done.
+Delta compression using up to 12 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 549 bytes | 549.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:seohyun8825/Thumbnail_Generation.git
+   90ef458..4c525b1  main -> main
+(RPG) root@C.13784856:/home/kubig/Thumbnail_Image_Generation$ tmux capture-pane -pS -500 > /home/kubig/Thumbnail_Image_G
+eneration/recent_history
+
